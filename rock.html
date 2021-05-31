@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <p>This is a rock paper scissors match simulater</p>
+        
+        <label>How long would you like for the simulation to rest in between matches?</label>
+        <input type="number" id="howfast" placeholder="howfast (ms)">
+        <br>
+        <label>How many matches would you like to be simulated?</label>
+        <input type="number" placeholder="howmany"id="howmany">
+        <br>
+        <button id = "startbut" onclick="run()">Press to start</button>
+        <div id="abox">
+            <p>This is the percentage difference between the two bot's total wins.</p>
+            <p id="perc">0.00%</p>
+        
+        </div>
+        
+        
+<div class = "container">
+    
+    <div class = "center">
+        
+        <p id = "score1">wins: 0</p>
+        <p id = "score2">wins: 0</p>
+    </div>
+    <div class="player1" id="player1"><img id="img1"src="" ></div>
+    <div class="player2" id="player2"><img id="img2" src=""></div>
+    <button id="button"type="button" onclick="stop()">Reset</button>
+</div>
+</body>
+</html>

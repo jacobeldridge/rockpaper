@@ -1,0 +1,98 @@
+label {
+    font-size: 13pt;
+}
+#perc{
+    
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+}
+#abox{
+    display: block;
+    float: right;
+    border: solid gray 4px;
+    background-image: linear-gradient(red, yellow);
+    width: 275px;
+    border-radius: 20px;
+}
+#startbut {
+    background-color: lightgreen;
+    
+}
+#startbut:hover{
+    background-color: green;
+    color: white;
+}
+#howfast {
+    opacity: 75%;
+}
+#howmany{
+    opacity: 75%;
+}
+
+#button{
+    display: block;
+    margin: auto;
+    margin-top: 55%;
+    color: black;
+    background-color: red;
+    box-shadow: 2px 2px;
+    border-radius: 5px;
+    width: 100px;
+    height: 75px;
+    
+}
+#button:hover{
+    color: white;
+
+}
+.container {
+    margin: auto;
+    height: 450px;
+    width: 550px;
+    border: solid black 4px;
+    border-radius: 20px;
+}
+.player2{
+    float: left;
+    width: 20%; 
+    height: 40%; 
+    border: solid black 4px;
+    
+    object-fit: cover;
+}
+
+.player1{
+    float: right;
+    width: 20%; 
+    height: 40%; 
+    border: solid black 4px;
+    position: relative;
+  
+}
+#score1{
+    font-size: 15pt;
+    font-family: 'Trebuchet MS';
+    display: inline-block;
+    text-align: left;
+}
+#score2{
+    font-size: 15pt;
+    font-family: 'Trebuchet MS';
+    display: inline-block;
+    float: right;
+}
+#img1{
+    width: 110px;
+    height: 180px;
+    object-fit: cover;
+}
+#img2{
+    width: 110px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+
